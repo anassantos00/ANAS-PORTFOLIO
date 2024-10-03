@@ -1,0 +1,36 @@
+body {
+    
+    background-color: rgb(254,153,217);
+	border-radius: 54px;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+	font-family: Beni;
+	font-weight: 500;
+	font-style: Black;
+	color: rgb(255, 255, 255); 
+	font-size: 18px;
+	letter-spacing: 0px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: center; /* Centraliza os itens */
+    justify-content: flex-start; /* Alinha os itens no início */
+    height: 100vh; /* Define a altura do cabeçalho */
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif; /* Fonte do site */
+    background-color: #fe99d9;
+    
+}
+
+header {
+    background-color: #fe99d9; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Preenchimento superior e inferior */
+}

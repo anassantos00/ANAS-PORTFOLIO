@@ -1,0 +1,194 @@
+body {
+    
+    background-color: rgb(254,153,217);
+	border-radius: 54px;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+	font-family: Beni;
+	font-weight: 500;
+	font-style: Black;
+	color: rgb(255, 255, 255); 
+	font-size: 18px;
+	letter-spacing: 0px;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: center; /* Centraliza os itens */
+    justify-content: flex-start; /* Alinha os itens no início */
+    height: 100vh; /* Define a altura do cabeçalho */
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif; /* Fonte do site */
+    background-color: #fe99d9;
+    
+}
+
+header {
+    background-color: #fe99d9; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Preenchimento superior e inferior */
+}
+
+.nav-background {
+    background-color: #fe99d9; /* Cor do fundo da forma */
+    padding: 10px; /* Espaçamento em volta da barra de navegação */
+    border-radius: 10px; /* Borda arredondada para a forma */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de profundidade */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza os itens da barra de navegação */
+    margin-top: -90px; 
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    display: flex; /* Exibe os itens em linha */
+    padding-top: 30px
+}
+
+.navbar li {
+    margin: 0 20px; /* Espaçamento entre os itens */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-size: 15px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição suave para a cor */
+    font-family: 'Helvetica', Regular;
+    margin: 0 15px;
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: rgba(0, 0, 0, 2);  /* Fundo levemente transparente */
+    transition: background-color 0.3s; /* Transição suave para o efeito hover */
+
+
+}
+
+.navbar a:hover {
+    color: #ff6502; /* Cor ao passar o mouse sobre o link */
+}
+
+main {
+    padding: 20px; /* Adiciona algum preenchimento ao main */
+}
+
+section {
+    margin: 40px 0; /* Adiciona espaço entre as seções */
+    color: white; /* Cor do texto das seções */
+}
+
+
+h1 { 
+    font-family: Beni;
+    font-weight: 500;
+    font-style: Black;
+    color: rgb(255, 255, 255); 
+    font-size: 200px;
+    text-align: center;
+
+}
+
+
+ul  {
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: -30px
+
+}
+
+
+h2 {
+
+
+    font-family: Beni;
+    text-align: center; /* Centraliza o título */
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    color: #ffffff; /* Cor do texto do título */
+    margin-bottom: 20px; /* Margem abaixo do título */
+
+}
+
+
+.container {
+    max-width: 1050px; /* Largura máxima do contêiner */
+    margin: 100px auto; /* Margem superior e inferior de 50px, centraliza o contêiner */
+    margin-top: -300px;
+    padding: 0 20px; /* Preenchimento à esquerda e direita de 20px */
+   
+    
+}
+    
+
+
+p {
+
+
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Altura da linha ajustada para 1.6 */
+    margin: 0 0 20px; /* Margem entre os parágrafos */
+    text-align: center; /* Justifica o texto */
+    text-indent: 20px; /* Adiciona um recuo no início do parágrafo */
+    font-weight: 500;
+    font-family: Helvetica;
+    font-style: normal;
+    letter-spacing: -1.2px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(249, 246, 246, 1);
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    
+
+
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; /* Coluna para as linhas */
+}
+
+.row {
+    display: flex; /* Flexbox para as linhas */
+    justify-content: center; /* Centraliza as imagens */
+    margin-bottom: 0px; /* Espaçamento entre as linhas */
+}
+
+.row img {
+    width: calc(100% / 5); /* Divide a largura da imagem para a primeira linha */
+    max-width: 300px; /* Largura máxima das imagens (ajuste conforme necessário) */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0px; /* Espaçamento entre as imagens */
+}
+
+.row:nth-child(2) img {
+    width: calc(100% / 3); /* Divide a largura da imagem para a segunda linha */
+    max-width: 300px; /* Largura máxima das imagens na segunda linha */
+}
+
+/* Estilo das imagens no hover */
+img {
+    
+    transition: transform 0.2s; /* Efeito de transição */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Para ocupar toda a largura da página */ 
+}
